@@ -1,0 +1,11 @@
+rn<-rnorm(50,mean=50,sd=10)
+mat<-matrix(rn,nrow=10,ncol=5)
+mat
+head(mat)
+head(mat,n=2)
+summary(mat)
+min(mat)
+max(mat)
+mean(mat)
+sd(mat)
+sum(mat)
